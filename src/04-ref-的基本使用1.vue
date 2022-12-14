@@ -5,7 +5,6 @@ export default {
   setup() {
     // 定义一个age响应式数据
     const age = ref(18);
-    console.log(age);
     // 修改数据的函数
     const decrement = () => {
       age.value = age.value - 1;
